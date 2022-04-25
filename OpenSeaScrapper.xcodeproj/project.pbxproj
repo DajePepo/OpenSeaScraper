@@ -141,7 +141,6 @@
 				9A86EE8F28171C7D009D4492 /* Resources */,
 				9A2D481428034A520052EFA1 /* Repositories */,
 				9AD97242280CBD6500A13B4E /* Managers */,
-				9A2D481C280362170052EFA1 /* HttpRequestManager */,
 				9A2EF027280374DA00E7B076 /* Models */,
 				9AD9722C280A171500A13B4E /* Extensions */,
 			);
@@ -274,6 +273,7 @@
 		9AD97242280CBD6500A13B4E /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				9A2D481C280362170052EFA1 /* HttpRequestManager */,
 				9AD97243280CBD7A00A13B4E /* CsvManager.swift */,
 			);
 			path = Managers;
