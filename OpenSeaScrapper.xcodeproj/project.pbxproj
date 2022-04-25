@@ -7,92 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A2D47F128034A390052EFA1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47F028034A390052EFA1 /* Tests_iOS.swift */; };
-		9A2D47F328034A390052EFA1 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47F228034A390052EFA1 /* Tests_iOSLaunchTests.swift */; };
 		9A2D47FD28034A390052EFA1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47FC28034A390052EFA1 /* Tests_macOS.swift */; };
 		9A2D47FF28034A390052EFA1 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47FE28034A390052EFA1 /* Tests_macOSLaunchTests.swift */; };
-		9A2D480028034A390052EFA1 /* OpenSeaScraperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */; };
 		9A2D480128034A390052EFA1 /* OpenSeaScraperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */; };
-		9A2D480228034A390052EFA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D928034A380052EFA1 /* ContentView.swift */; };
 		9A2D480328034A390052EFA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D928034A380052EFA1 /* ContentView.swift */; };
-		9A2D480428034A390052EFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D47DA28034A390052EFA1 /* Assets.xcassets */; };
 		9A2D480528034A390052EFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D47DA28034A390052EFA1 /* Assets.xcassets */; };
-		9A2D481628034A720052EFA1 /* OpenSeaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481528034A720052EFA1 /* OpenSeaRepository.swift */; };
 		9A2D481B280351210052EFA1 /* OpenSeaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481528034A720052EFA1 /* OpenSeaRepository.swift */; };
-		9A2D481F280362170052EFA1 /* AlamofireHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481D280362170052EFA1 /* AlamofireHttpRequestManager.swift */; };
 		9A2D4820280362170052EFA1 /* AlamofireHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481D280362170052EFA1 /* AlamofireHttpRequestManager.swift */; };
-		9A2D4821280362170052EFA1 /* HttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481E280362170052EFA1 /* HttpRequestManager.swift */; };
 		9A2D4822280362170052EFA1 /* HttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481E280362170052EFA1 /* HttpRequestManager.swift */; };
-		9A2D4825280362FE0052EFA1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A2D4824280362FE0052EFA1 /* Alamofire */; };
 		9A2EF0262803671000E7B076 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A2EF0252803671000E7B076 /* Alamofire */; };
-		9A2EF0292803751000E7B076 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0282803751000E7B076 /* Asset.swift */; };
-		9A2EF02B2803753800E7B076 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02A2803753800E7B076 /* Event.swift */; };
-		9A2EF02D2803754200E7B076 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02C2803754200E7B076 /* Account.swift */; };
-		9A2EF02F2803754C00E7B076 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02E2803754C00E7B076 /* Collection.swift */; };
-		9A2EF0312803760800E7B076 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0302803760800E7B076 /* Contract.swift */; };
-		9A2EF03328037C6100E7B076 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF03228037C6100E7B076 /* Stats.swift */; };
 		9A2EF03428037C6100E7B076 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF03228037C6100E7B076 /* Stats.swift */; };
 		9A2EF03528037C6600E7B076 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0302803760800E7B076 /* Contract.swift */; };
 		9A2EF03628037C6800E7B076 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02E2803754C00E7B076 /* Collection.swift */; };
 		9A2EF03728037C6B00E7B076 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02C2803754200E7B076 /* Account.swift */; };
 		9A2EF03828037C6E00E7B076 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02A2803753800E7B076 /* Event.swift */; };
 		9A2EF03928037C7100E7B076 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0282803751000E7B076 /* Asset.swift */; };
-		9A2EF0572805EE4000E7B076 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0562805EE4000E7B076 /* User.swift */; };
 		9A2EF0582805EE4000E7B076 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0562805EE4000E7B076 /* User.swift */; };
-		9A86EDDF280FE511009D4492 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EDDE280FE511009D4492 /* Bundle.swift */; };
 		9A86EDE0280FE511009D4492 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EDDE280FE511009D4492 /* Bundle.swift */; };
-		9A86EE692814B33B009D4492 /* TwitterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE682814B33B009D4492 /* TwitterRepository.swift */; };
 		9A86EE6A2814B33B009D4492 /* TwitterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE682814B33B009D4492 /* TwitterRepository.swift */; };
-		9A86EE6C2814B347009D4492 /* DiscordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6B2814B347009D4492 /* DiscordRepository.swift */; };
 		9A86EE6D2814B347009D4492 /* DiscordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6B2814B347009D4492 /* DiscordRepository.swift */; };
-		9A86EE6F2814B4F5009D4492 /* DiscordServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6E2814B4F5009D4492 /* DiscordServer.swift */; };
 		9A86EE702814B4F5009D4492 /* DiscordServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6E2814B4F5009D4492 /* DiscordServer.swift */; };
-		9A86EE722814B669009D4492 /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE712814B669009D4492 /* TwitterAccount.swift */; };
 		9A86EE732814B669009D4492 /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE712814B669009D4492 /* TwitterAccount.swift */; };
-		9A86EE7628158E69009D4492 /* DiscordRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7528158E69009D4492 /* DiscordRemoteRepository.swift */; };
 		9A86EE7728158E69009D4492 /* DiscordRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7528158E69009D4492 /* DiscordRemoteRepository.swift */; };
-		9A86EE7928158E77009D4492 /* DiscordLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7828158E77009D4492 /* DiscordLocalRepository.swift */; };
 		9A86EE7A28158E77009D4492 /* DiscordLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7828158E77009D4492 /* DiscordLocalRepository.swift */; };
-		9A86EE7D281591E1009D4492 /* TwitterLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7C281591E1009D4492 /* TwitterLocalRepository.swift */; };
 		9A86EE7E281591E1009D4492 /* TwitterLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7C281591E1009D4492 /* TwitterLocalRepository.swift */; };
-		9A86EE80281591ED009D4492 /* TwitterRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7F281591ED009D4492 /* TwitterRemoteRepository.swift */; };
 		9A86EE81281591ED009D4492 /* TwitterRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7F281591ED009D4492 /* TwitterRemoteRepository.swift */; };
-		9A86EE8428159339009D4492 /* OpenSeaLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8328159339009D4492 /* OpenSeaLocalRepository.swift */; };
 		9A86EE8528159339009D4492 /* OpenSeaLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8328159339009D4492 /* OpenSeaLocalRepository.swift */; };
-		9A86EE872815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */; };
 		9A86EE882815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */; };
-		9A86EE8A2815A72D009D4492 /* EventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE892815A72D009D4492 /* EventsResponse.swift */; };
 		9A86EE8B2815A72D009D4492 /* EventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE892815A72D009D4492 /* EventsResponse.swift */; };
-		9A86EE8D2815A741009D4492 /* CollectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8C2815A741009D4492 /* CollectionResponse.swift */; };
 		9A86EE8E2815A741009D4492 /* CollectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8C2815A741009D4492 /* CollectionResponse.swift */; };
 		9AD9722E280A173300A13B4E /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9722D280A173300A13B4E /* Codable.swift */; };
-		9AD9722F280A1AE000A13B4E /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9722D280A173300A13B4E /* Codable.swift */; };
-		9AD97231280A1BA900A13B4E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97230280A1BA900A13B4E /* DateFormatter.swift */; };
 		9AD97232280A1BA900A13B4E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97230280A1BA900A13B4E /* DateFormatter.swift */; };
-		9AD97234280AAB3500A13B4E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97233280AAB3500A13B4E /* Token.swift */; };
 		9AD97235280AAB3500A13B4E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97233280AAB3500A13B4E /* Token.swift */; };
-		9AD97237280AAD0300A13B4E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97236280AAD0300A13B4E /* Transaction.swift */; };
 		9AD97238280AAD0300A13B4E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97236280AAD0300A13B4E /* Transaction.swift */; };
-		9AD9723A280B5A9500A13B4E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97239280B5A9500A13B4E /* Date.swift */; };
 		9AD9723B280B5A9500A13B4E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97239280B5A9500A13B4E /* Date.swift */; };
-		9AD9723D280B6B6300A13B4E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9723C280B6B6300A13B4E /* ContentViewModel.swift */; };
 		9AD9723E280B6B6300A13B4E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9723C280B6B6300A13B4E /* ContentViewModel.swift */; };
-		9AD97241280CAC3300A13B4E /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 9AD97240280CAC3300A13B4E /* CodableCSV */; };
-		9AD97244280CBD7A00A13B4E /* CsvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97243280CBD7A00A13B4E /* CsvManager.swift */; };
 		9AD97245280CBD7A00A13B4E /* CsvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97243280CBD7A00A13B4E /* CsvManager.swift */; };
-		9AD97247280D40B300A13B4E /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97246280D40B300A13B4E /* DataRow.swift */; };
 		9AD97248280D40B300A13B4E /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97246280D40B300A13B4E /* DataRow.swift */; };
 		9AD9724A280D613D00A13B4E /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 9AD97249280D613D00A13B4E /* CodableCSV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A2D47ED28034A390052EFA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A2D47D328034A380052EFA1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A2D47DE28034A390052EFA1;
-			remoteInfo = "OpenSeaScrapper (iOS)";
-		};
 		9A2D47F928034A390052EFA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A2D47D328034A380052EFA1 /* Project object */;
@@ -106,12 +61,8 @@
 		9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaScraperApp.swift; sourceTree = "<group>"; };
 		9A2D47D928034A380052EFA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A2D47DA28034A390052EFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A2D47DF28034A390052EFA1 /* OpenSeaScrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSeaScrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D47E528034A390052EFA1 /* OpenSeaScrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSeaScrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D47E728034A390052EFA1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		9A2D47EC28034A390052EFA1 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A2D47F028034A390052EFA1 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		9A2D47F228034A390052EFA1 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		9A2D47F828034A390052EFA1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D47FC28034A390052EFA1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9A2D47FE28034A390052EFA1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
@@ -149,28 +100,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A2D47DC28034A390052EFA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AD97241280CAC3300A13B4E /* CodableCSV in Frameworks */,
-				9A2D4825280362FE0052EFA1 /* Alamofire in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9A2D47E228034A390052EFA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9AD9724A280D613D00A13B4E /* CodableCSV in Frameworks */,
 				9A2EF0262803671000E7B076 /* Alamofire in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A2D47E928034A390052EFA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +124,6 @@
 			children = (
 				9A2D47D728034A380052EFA1 /* Shared */,
 				9A2D47E628034A390052EFA1 /* macOS */,
-				9A2D47EF28034A390052EFA1 /* Tests iOS */,
 				9A2D47FB28034A390052EFA1 /* Tests macOS */,
 				9A2D47E028034A390052EFA1 /* Products */,
 				9A2EF022280366ED00E7B076 /* Frameworks */,
@@ -215,9 +149,7 @@
 		9A2D47E028034A390052EFA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A2D47DF28034A390052EFA1 /* OpenSeaScrapper.app */,
 				9A2D47E528034A390052EFA1 /* OpenSeaScrapper.app */,
-				9A2D47EC28034A390052EFA1 /* Tests iOS.xctest */,
 				9A2D47F828034A390052EFA1 /* Tests macOS.xctest */,
 			);
 			name = Products;
@@ -229,15 +161,6 @@
 				9A2D47E728034A390052EFA1 /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		9A2D47EF28034A390052EFA1 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9A2D47F028034A390052EFA1 /* Tests_iOS.swift */,
-				9A2D47F228034A390052EFA1 /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
 		9A2D47FB28034A390052EFA1 /* Tests macOS */ = {
@@ -348,27 +271,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A2D47DE28034A390052EFA1 /* OpenSeaScrapper (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A2D480828034A390052EFA1 /* Build configuration list for PBXNativeTarget "OpenSeaScrapper (iOS)" */;
-			buildPhases = (
-				9A2D47DB28034A390052EFA1 /* Sources */,
-				9A2D47DC28034A390052EFA1 /* Frameworks */,
-				9A2D47DD28034A390052EFA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OpenSeaScrapper (iOS)";
-			packageProductDependencies = (
-				9A2D4824280362FE0052EFA1 /* Alamofire */,
-				9AD97240280CAC3300A13B4E /* CodableCSV */,
-			);
-			productName = "OpenSeaScrapper (iOS)";
-			productReference = 9A2D47DF28034A390052EFA1 /* OpenSeaScrapper.app */;
-			productType = "com.apple.product-type.application";
-		};
 		9A2D47E428034A390052EFA1 /* OpenSeaScrapper (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2D480B28034A390052EFA1 /* Build configuration list for PBXNativeTarget "OpenSeaScrapper (macOS)" */;
@@ -389,24 +291,6 @@
 			productName = "OpenSeaScrapper (macOS)";
 			productReference = 9A2D47E528034A390052EFA1 /* OpenSeaScrapper.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9A2D47EB28034A390052EFA1 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A2D480E28034A390052EFA1 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				9A2D47E828034A390052EFA1 /* Sources */,
-				9A2D47E928034A390052EFA1 /* Frameworks */,
-				9A2D47EA28034A390052EFA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A2D47EE28034A390052EFA1 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 9A2D47EC28034A390052EFA1 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		9A2D47F728034A390052EFA1 /* Tests macOS */ = {
 			isa = PBXNativeTarget;
@@ -436,15 +320,8 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					9A2D47DE28034A390052EFA1 = {
-						CreatedOnToolsVersion = 13.3;
-					};
 					9A2D47E428034A390052EFA1 = {
 						CreatedOnToolsVersion = 13.3;
-					};
-					9A2D47EB28034A390052EFA1 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 9A2D47DE28034A390052EFA1;
 					};
 					9A2D47F728034A390052EFA1 = {
 						CreatedOnToolsVersion = 13.3;
@@ -469,35 +346,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A2D47DE28034A390052EFA1 /* OpenSeaScrapper (iOS) */,
 				9A2D47E428034A390052EFA1 /* OpenSeaScrapper (macOS) */,
-				9A2D47EB28034A390052EFA1 /* Tests iOS */,
 				9A2D47F728034A390052EFA1 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A2D47DD28034A390052EFA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A2D480428034A390052EFA1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9A2D47E328034A390052EFA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A2D480528034A390052EFA1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A2D47EA28034A390052EFA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,46 +371,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A2D47DB28034A390052EFA1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A86EE8D2815A741009D4492 /* CollectionResponse.swift in Sources */,
-				9A2EF02F2803754C00E7B076 /* Collection.swift in Sources */,
-				9A86EDDF280FE511009D4492 /* Bundle.swift in Sources */,
-				9A2EF03328037C6100E7B076 /* Stats.swift in Sources */,
-				9AD97247280D40B300A13B4E /* DataRow.swift in Sources */,
-				9AD97237280AAD0300A13B4E /* Transaction.swift in Sources */,
-				9A86EE872815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */,
-				9A2EF0292803751000E7B076 /* Asset.swift in Sources */,
-				9A86EE722814B669009D4492 /* TwitterAccount.swift in Sources */,
-				9A2D481F280362170052EFA1 /* AlamofireHttpRequestManager.swift in Sources */,
-				9A86EE6C2814B347009D4492 /* DiscordRepository.swift in Sources */,
-				9A86EE7D281591E1009D4492 /* TwitterLocalRepository.swift in Sources */,
-				9A2EF0312803760800E7B076 /* Contract.swift in Sources */,
-				9AD9723A280B5A9500A13B4E /* Date.swift in Sources */,
-				9A2D480228034A390052EFA1 /* ContentView.swift in Sources */,
-				9A86EE8428159339009D4492 /* OpenSeaLocalRepository.swift in Sources */,
-				9AD97234280AAB3500A13B4E /* Token.swift in Sources */,
-				9A86EE80281591ED009D4492 /* TwitterRemoteRepository.swift in Sources */,
-				9A86EE692814B33B009D4492 /* TwitterRepository.swift in Sources */,
-				9A86EE7628158E69009D4492 /* DiscordRemoteRepository.swift in Sources */,
-				9A86EE8A2815A72D009D4492 /* EventsResponse.swift in Sources */,
-				9AD97244280CBD7A00A13B4E /* CsvManager.swift in Sources */,
-				9A2D4821280362170052EFA1 /* HttpRequestManager.swift in Sources */,
-				9A2D480028034A390052EFA1 /* OpenSeaScraperApp.swift in Sources */,
-				9A2EF0572805EE4000E7B076 /* User.swift in Sources */,
-				9AD9722F280A1AE000A13B4E /* Codable.swift in Sources */,
-				9AD97231280A1BA900A13B4E /* DateFormatter.swift in Sources */,
-				9AD9723D280B6B6300A13B4E /* ContentViewModel.swift in Sources */,
-				9A86EE7928158E77009D4492 /* DiscordLocalRepository.swift in Sources */,
-				9A2EF02D2803754200E7B076 /* Account.swift in Sources */,
-				9A86EE6F2814B4F5009D4492 /* DiscordServer.swift in Sources */,
-				9A2EF02B2803753800E7B076 /* Event.swift in Sources */,
-				9A2D481628034A720052EFA1 /* OpenSeaRepository.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9A2D47E128034A390052EFA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -591,15 +411,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A2D47E828034A390052EFA1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A2D47F328034A390052EFA1 /* Tests_iOSLaunchTests.swift in Sources */,
-				9A2D47F128034A390052EFA1 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9A2D47F428034A390052EFA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,11 +423,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A2D47EE28034A390052EFA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9A2D47DE28034A390052EFA1 /* OpenSeaScrapper (iOS) */;
-			targetProxy = 9A2D47ED28034A390052EFA1 /* PBXContainerItemProxy */;
-		};
 		9A2D47FA28034A390052EFA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9A2D47E428034A390052EFA1 /* OpenSeaScrapper (macOS) */;
@@ -736,67 +542,6 @@
 			};
 			name = Release;
 		};
-		9A2D480928034A390052EFA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9DYDBPHJQV;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.OpenSeaScrapper;
-				PRODUCT_NAME = OpenSeaScrapper;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9A2D480A28034A390052EFA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9DYDBPHJQV;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.OpenSeaScrapper;
-				PRODUCT_NAME = OpenSeaScrapper;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		9A2D480C28034A390052EFA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -853,47 +598,6 @@
 			};
 			name = Release;
 		};
-		9A2D480F28034A390052EFA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9DYDBPHJQV;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tecnojam.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "OpenSeaScrapper (iOS)";
-			};
-			name = Debug;
-		};
-		9A2D481028034A390052EFA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9DYDBPHJQV;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tecnojam.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "OpenSeaScrapper (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		9A2D481228034A390052EFA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -944,29 +648,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A2D480828034A390052EFA1 /* Build configuration list for PBXNativeTarget "OpenSeaScrapper (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A2D480928034A390052EFA1 /* Debug */,
-				9A2D480A28034A390052EFA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9A2D480B28034A390052EFA1 /* Build configuration list for PBXNativeTarget "OpenSeaScrapper (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A2D480C28034A390052EFA1 /* Debug */,
 				9A2D480D28034A390052EFA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A2D480E28034A390052EFA1 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A2D480F28034A390052EFA1 /* Debug */,
-				9A2D481028034A390052EFA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1002,20 +688,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9A2D4824280362FE0052EFA1 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9A2D4823280362FE0052EFA1 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		9A2EF0252803671000E7B076 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9A2D4823280362FE0052EFA1 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		9AD97240280CAC3300A13B4E /* CodableCSV */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9AD9723F280CAC3300A13B4E /* XCRemoteSwiftPackageReference "CodableCSV" */;
-			productName = CodableCSV;
 		};
 		9AD97249280D613D00A13B4E /* CodableCSV */ = {
 			isa = XCSwiftPackageProductDependency;
