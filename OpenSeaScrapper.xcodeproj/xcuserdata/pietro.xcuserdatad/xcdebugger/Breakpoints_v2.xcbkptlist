@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "443C6801-B11D-4002-9011-98A08A4DFACB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1BFF123-E69E-48FA-A53D-B3E71F54D03D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ContentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "fetchSaleEvents()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ContentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "fetchSaleEvents()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - 58a2a0bdfc88ae6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "4868">
+               </Location>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - d2be828297e19ba1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "4944">
+               </Location>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - 3980a3bfcbdbc0a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "16768">
+               </Location>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - 9f6ac06b2f9205a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(15) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "15968">
+               </Location>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - e64ce1048c4c4aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(17) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "13976">
+               </Location>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - 5fe73a97bc9da124"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(23) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "16788">
+               </Location>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - 127a2a39437084a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(24) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "16016">
+               </Location>
+               <Location
+                  uuid = "0DABC12C-ECAF-4875-B9FF-136E540BFC99 - a6c95b431157e626"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(25) suspend resume partial function for OpenSeaScrapper.ContentViewModel.fetchSaleEvents() async -&gt; ()"
+                  moduleName = "OpenSeaScrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Pietro/Desktop/OpenSeaScrapper/Shared/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "14072">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D23599A-C35D-493D-9F3E-28EBE02F618C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Repository/DiscordRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getDiscordServerInfo(serverId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A29B088-ED53-44C6-9DB9-8155DF760A32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Repository/DiscordRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getDiscordServerInfo(serverId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BC56027-7199-4C99-8E7F-1EA2B8A91599"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Repository/TwitterRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getTwitterAccountInfo(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15387894-894F-4EBB-BBE9-C9FEB46288CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Repository/DiscordRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getDiscordServerInfo(serverId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB6CD732-3F30-4C98-9156-E2797C4EA53D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Repository/DiscordRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getDiscordServerInfo(serverId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8965F503-C847-4025-9976-954EC0DF9620"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Repository/TwitterRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getTwitterAccountInfo(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1943697-F3B6-4FAD-AA2F-D182497D451B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Repository/TwitterRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getTwitterAccountInfo(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

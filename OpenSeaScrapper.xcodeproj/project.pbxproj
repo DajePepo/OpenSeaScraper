@@ -11,12 +11,78 @@
 		9A2D47F328034A390052EFA1 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47F228034A390052EFA1 /* Tests_iOSLaunchTests.swift */; };
 		9A2D47FD28034A390052EFA1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47FC28034A390052EFA1 /* Tests_macOS.swift */; };
 		9A2D47FF28034A390052EFA1 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47FE28034A390052EFA1 /* Tests_macOSLaunchTests.swift */; };
-		9A2D480028034A390052EFA1 /* OpenSeaScrapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D828034A380052EFA1 /* OpenSeaScrapperApp.swift */; };
-		9A2D480128034A390052EFA1 /* OpenSeaScrapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D828034A380052EFA1 /* OpenSeaScrapperApp.swift */; };
+		9A2D480028034A390052EFA1 /* OpenSeaScraperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */; };
+		9A2D480128034A390052EFA1 /* OpenSeaScraperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */; };
 		9A2D480228034A390052EFA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D928034A380052EFA1 /* ContentView.swift */; };
 		9A2D480328034A390052EFA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D47D928034A380052EFA1 /* ContentView.swift */; };
 		9A2D480428034A390052EFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D47DA28034A390052EFA1 /* Assets.xcassets */; };
 		9A2D480528034A390052EFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D47DA28034A390052EFA1 /* Assets.xcassets */; };
+		9A2D481628034A720052EFA1 /* OpenSeaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481528034A720052EFA1 /* OpenSeaRepository.swift */; };
+		9A2D481B280351210052EFA1 /* OpenSeaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481528034A720052EFA1 /* OpenSeaRepository.swift */; };
+		9A2D481F280362170052EFA1 /* AlamofireHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481D280362170052EFA1 /* AlamofireHttpRequestManager.swift */; };
+		9A2D4820280362170052EFA1 /* AlamofireHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481D280362170052EFA1 /* AlamofireHttpRequestManager.swift */; };
+		9A2D4821280362170052EFA1 /* HttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481E280362170052EFA1 /* HttpRequestManager.swift */; };
+		9A2D4822280362170052EFA1 /* HttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D481E280362170052EFA1 /* HttpRequestManager.swift */; };
+		9A2D4825280362FE0052EFA1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A2D4824280362FE0052EFA1 /* Alamofire */; };
+		9A2EF0262803671000E7B076 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A2EF0252803671000E7B076 /* Alamofire */; };
+		9A2EF0292803751000E7B076 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0282803751000E7B076 /* Asset.swift */; };
+		9A2EF02B2803753800E7B076 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02A2803753800E7B076 /* Event.swift */; };
+		9A2EF02D2803754200E7B076 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02C2803754200E7B076 /* Account.swift */; };
+		9A2EF02F2803754C00E7B076 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02E2803754C00E7B076 /* Collection.swift */; };
+		9A2EF0312803760800E7B076 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0302803760800E7B076 /* Contract.swift */; };
+		9A2EF03328037C6100E7B076 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF03228037C6100E7B076 /* Stats.swift */; };
+		9A2EF03428037C6100E7B076 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF03228037C6100E7B076 /* Stats.swift */; };
+		9A2EF03528037C6600E7B076 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0302803760800E7B076 /* Contract.swift */; };
+		9A2EF03628037C6800E7B076 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02E2803754C00E7B076 /* Collection.swift */; };
+		9A2EF03728037C6B00E7B076 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02C2803754200E7B076 /* Account.swift */; };
+		9A2EF03828037C6E00E7B076 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF02A2803753800E7B076 /* Event.swift */; };
+		9A2EF03928037C7100E7B076 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0282803751000E7B076 /* Asset.swift */; };
+		9A2EF0572805EE4000E7B076 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0562805EE4000E7B076 /* User.swift */; };
+		9A2EF0582805EE4000E7B076 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF0562805EE4000E7B076 /* User.swift */; };
+		9A86EDDF280FE511009D4492 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EDDE280FE511009D4492 /* Bundle.swift */; };
+		9A86EDE0280FE511009D4492 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EDDE280FE511009D4492 /* Bundle.swift */; };
+		9A86EE692814B33B009D4492 /* TwitterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE682814B33B009D4492 /* TwitterRepository.swift */; };
+		9A86EE6A2814B33B009D4492 /* TwitterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE682814B33B009D4492 /* TwitterRepository.swift */; };
+		9A86EE6C2814B347009D4492 /* DiscordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6B2814B347009D4492 /* DiscordRepository.swift */; };
+		9A86EE6D2814B347009D4492 /* DiscordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6B2814B347009D4492 /* DiscordRepository.swift */; };
+		9A86EE6F2814B4F5009D4492 /* DiscordServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6E2814B4F5009D4492 /* DiscordServer.swift */; };
+		9A86EE702814B4F5009D4492 /* DiscordServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE6E2814B4F5009D4492 /* DiscordServer.swift */; };
+		9A86EE722814B669009D4492 /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE712814B669009D4492 /* TwitterAccount.swift */; };
+		9A86EE732814B669009D4492 /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE712814B669009D4492 /* TwitterAccount.swift */; };
+		9A86EE7628158E69009D4492 /* DiscordRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7528158E69009D4492 /* DiscordRemoteRepository.swift */; };
+		9A86EE7728158E69009D4492 /* DiscordRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7528158E69009D4492 /* DiscordRemoteRepository.swift */; };
+		9A86EE7928158E77009D4492 /* DiscordLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7828158E77009D4492 /* DiscordLocalRepository.swift */; };
+		9A86EE7A28158E77009D4492 /* DiscordLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7828158E77009D4492 /* DiscordLocalRepository.swift */; };
+		9A86EE7D281591E1009D4492 /* TwitterLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7C281591E1009D4492 /* TwitterLocalRepository.swift */; };
+		9A86EE7E281591E1009D4492 /* TwitterLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7C281591E1009D4492 /* TwitterLocalRepository.swift */; };
+		9A86EE80281591ED009D4492 /* TwitterRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7F281591ED009D4492 /* TwitterRemoteRepository.swift */; };
+		9A86EE81281591ED009D4492 /* TwitterRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE7F281591ED009D4492 /* TwitterRemoteRepository.swift */; };
+		9A86EE8428159339009D4492 /* OpenSeaLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8328159339009D4492 /* OpenSeaLocalRepository.swift */; };
+		9A86EE8528159339009D4492 /* OpenSeaLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8328159339009D4492 /* OpenSeaLocalRepository.swift */; };
+		9A86EE872815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */; };
+		9A86EE882815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */; };
+		9A86EE8A2815A72D009D4492 /* EventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE892815A72D009D4492 /* EventsResponse.swift */; };
+		9A86EE8B2815A72D009D4492 /* EventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE892815A72D009D4492 /* EventsResponse.swift */; };
+		9A86EE8D2815A741009D4492 /* CollectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8C2815A741009D4492 /* CollectionResponse.swift */; };
+		9A86EE8E2815A741009D4492 /* CollectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8C2815A741009D4492 /* CollectionResponse.swift */; };
+		9AD9722E280A173300A13B4E /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9722D280A173300A13B4E /* Codable.swift */; };
+		9AD9722F280A1AE000A13B4E /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9722D280A173300A13B4E /* Codable.swift */; };
+		9AD97231280A1BA900A13B4E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97230280A1BA900A13B4E /* DateFormatter.swift */; };
+		9AD97232280A1BA900A13B4E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97230280A1BA900A13B4E /* DateFormatter.swift */; };
+		9AD97234280AAB3500A13B4E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97233280AAB3500A13B4E /* Token.swift */; };
+		9AD97235280AAB3500A13B4E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97233280AAB3500A13B4E /* Token.swift */; };
+		9AD97237280AAD0300A13B4E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97236280AAD0300A13B4E /* Transaction.swift */; };
+		9AD97238280AAD0300A13B4E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97236280AAD0300A13B4E /* Transaction.swift */; };
+		9AD9723A280B5A9500A13B4E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97239280B5A9500A13B4E /* Date.swift */; };
+		9AD9723B280B5A9500A13B4E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97239280B5A9500A13B4E /* Date.swift */; };
+		9AD9723D280B6B6300A13B4E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9723C280B6B6300A13B4E /* ContentViewModel.swift */; };
+		9AD9723E280B6B6300A13B4E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9723C280B6B6300A13B4E /* ContentViewModel.swift */; };
+		9AD97241280CAC3300A13B4E /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 9AD97240280CAC3300A13B4E /* CodableCSV */; };
+		9AD97244280CBD7A00A13B4E /* CsvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97243280CBD7A00A13B4E /* CsvManager.swift */; };
+		9AD97245280CBD7A00A13B4E /* CsvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97243280CBD7A00A13B4E /* CsvManager.swift */; };
+		9AD97247280D40B300A13B4E /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97246280D40B300A13B4E /* DataRow.swift */; };
+		9AD97248280D40B300A13B4E /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97246280D40B300A13B4E /* DataRow.swift */; };
+		9AD9724A280D613D00A13B4E /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 9AD97249280D613D00A13B4E /* CodableCSV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +103,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A2D47D828034A380052EFA1 /* OpenSeaScrapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaScrapperApp.swift; sourceTree = "<group>"; };
+		9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaScraperApp.swift; sourceTree = "<group>"; };
 		9A2D47D928034A380052EFA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A2D47DA28034A390052EFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A2D47DF28034A390052EFA1 /* OpenSeaScrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSeaScrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +115,37 @@
 		9A2D47F828034A390052EFA1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D47FC28034A390052EFA1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9A2D47FE28034A390052EFA1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9A2D481528034A720052EFA1 /* OpenSeaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaRepository.swift; sourceTree = "<group>"; };
+		9A2D481D280362170052EFA1 /* AlamofireHttpRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireHttpRequestManager.swift; sourceTree = "<group>"; };
+		9A2D481E280362170052EFA1 /* HttpRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestManager.swift; sourceTree = "<group>"; };
+		9A2EF0282803751000E7B076 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		9A2EF02A2803753800E7B076 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9A2EF02C2803754200E7B076 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		9A2EF02E2803754C00E7B076 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		9A2EF0302803760800E7B076 /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		9A2EF03228037C6100E7B076 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		9A2EF0562805EE4000E7B076 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9A86EDDE280FE511009D4492 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		9A86EE682814B33B009D4492 /* TwitterRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterRepository.swift; sourceTree = "<group>"; };
+		9A86EE6B2814B347009D4492 /* DiscordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordRepository.swift; sourceTree = "<group>"; };
+		9A86EE6E2814B4F5009D4492 /* DiscordServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordServer.swift; sourceTree = "<group>"; };
+		9A86EE712814B669009D4492 /* TwitterAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAccount.swift; sourceTree = "<group>"; };
+		9A86EE7528158E69009D4492 /* DiscordRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordRemoteRepository.swift; sourceTree = "<group>"; };
+		9A86EE7828158E77009D4492 /* DiscordLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordLocalRepository.swift; sourceTree = "<group>"; };
+		9A86EE7C281591E1009D4492 /* TwitterLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLocalRepository.swift; sourceTree = "<group>"; };
+		9A86EE7F281591ED009D4492 /* TwitterRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterRemoteRepository.swift; sourceTree = "<group>"; };
+		9A86EE8328159339009D4492 /* OpenSeaLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaLocalRepository.swift; sourceTree = "<group>"; };
+		9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaRemoteRepository.swift; sourceTree = "<group>"; };
+		9A86EE892815A72D009D4492 /* EventsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsResponse.swift; sourceTree = "<group>"; };
+		9A86EE8C2815A741009D4492 /* CollectionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionResponse.swift; sourceTree = "<group>"; };
+		9AD9722D280A173300A13B4E /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		9AD97230280A1BA900A13B4E /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		9AD97233280AAB3500A13B4E /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		9AD97236280AAD0300A13B4E /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9AD97239280B5A9500A13B4E /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9AD9723C280B6B6300A13B4E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		9AD97243280CBD7A00A13B4E /* CsvManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsvManager.swift; sourceTree = "<group>"; };
+		9AD97246280D40B300A13B4E /* DataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD97241280CAC3300A13B4E /* CodableCSV in Frameworks */,
+				9A2D4825280362FE0052EFA1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD9724A280D613D00A13B4E /* CodableCSV in Frameworks */,
+				9A2EF0262803671000E7B076 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,15 +192,22 @@
 				9A2D47EF28034A390052EFA1 /* Tests iOS */,
 				9A2D47FB28034A390052EFA1 /* Tests macOS */,
 				9A2D47E028034A390052EFA1 /* Products */,
+				9A2EF022280366ED00E7B076 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9A2D47D728034A380052EFA1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9A2D47D828034A380052EFA1 /* OpenSeaScrapperApp.swift */,
-				9A2D47D928034A380052EFA1 /* ContentView.swift */,
 				9A2D47DA28034A390052EFA1 /* Assets.xcassets */,
+				9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */,
+				9A2D47D928034A380052EFA1 /* ContentView.swift */,
+				9AD9723C280B6B6300A13B4E /* ContentViewModel.swift */,
+				9A2D481428034A520052EFA1 /* Repositories */,
+				9AD97242280CBD6500A13B4E /* Managers */,
+				9A2D481C280362170052EFA1 /* HttpRequestManager */,
+				9A2EF027280374DA00E7B076 /* Models */,
+				9AD9722C280A171500A13B4E /* Extensions */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -141,6 +249,102 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		9A2D481428034A520052EFA1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9A86EE822815931B009D4492 /* OpenSeaRepository */,
+				9A86EE7B281591CA009D4492 /* TwitterRepository */,
+				9A86EE7428158E50009D4492 /* DiscordRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9A2D481C280362170052EFA1 /* HttpRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D481E280362170052EFA1 /* HttpRequestManager.swift */,
+				9A2D481D280362170052EFA1 /* AlamofireHttpRequestManager.swift */,
+			);
+			path = HttpRequestManager;
+			sourceTree = "<group>";
+		};
+		9A2EF022280366ED00E7B076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A2EF027280374DA00E7B076 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A2EF0282803751000E7B076 /* Asset.swift */,
+				9A86EDDE280FE511009D4492 /* Bundle.swift */,
+				9A2EF02A2803753800E7B076 /* Event.swift */,
+				9A2EF02C2803754200E7B076 /* Account.swift */,
+				9A2EF02E2803754C00E7B076 /* Collection.swift */,
+				9A2EF0302803760800E7B076 /* Contract.swift */,
+				9A2EF03228037C6100E7B076 /* Stats.swift */,
+				9A2EF0562805EE4000E7B076 /* User.swift */,
+				9AD97233280AAB3500A13B4E /* Token.swift */,
+				9AD97236280AAD0300A13B4E /* Transaction.swift */,
+				9AD97246280D40B300A13B4E /* DataRow.swift */,
+				9A86EE6E2814B4F5009D4492 /* DiscordServer.swift */,
+				9A86EE712814B669009D4492 /* TwitterAccount.swift */,
+				9A86EE892815A72D009D4492 /* EventsResponse.swift */,
+				9A86EE8C2815A741009D4492 /* CollectionResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A86EE7428158E50009D4492 /* DiscordRepository */ = {
+			isa = PBXGroup;
+			children = (
+				9A86EE6B2814B347009D4492 /* DiscordRepository.swift */,
+				9A86EE7528158E69009D4492 /* DiscordRemoteRepository.swift */,
+				9A86EE7828158E77009D4492 /* DiscordLocalRepository.swift */,
+			);
+			path = DiscordRepository;
+			sourceTree = "<group>";
+		};
+		9A86EE7B281591CA009D4492 /* TwitterRepository */ = {
+			isa = PBXGroup;
+			children = (
+				9A86EE682814B33B009D4492 /* TwitterRepository.swift */,
+				9A86EE7F281591ED009D4492 /* TwitterRemoteRepository.swift */,
+				9A86EE7C281591E1009D4492 /* TwitterLocalRepository.swift */,
+			);
+			path = TwitterRepository;
+			sourceTree = "<group>";
+		};
+		9A86EE822815931B009D4492 /* OpenSeaRepository */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D481528034A720052EFA1 /* OpenSeaRepository.swift */,
+				9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */,
+				9A86EE8328159339009D4492 /* OpenSeaLocalRepository.swift */,
+			);
+			path = OpenSeaRepository;
+			sourceTree = "<group>";
+		};
+		9AD9722C280A171500A13B4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9AD9722D280A173300A13B4E /* Codable.swift */,
+				9AD97230280A1BA900A13B4E /* DateFormatter.swift */,
+				9AD97239280B5A9500A13B4E /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9AD97242280CBD6500A13B4E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9AD97243280CBD7A00A13B4E /* CsvManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +361,10 @@
 			dependencies = (
 			);
 			name = "OpenSeaScrapper (iOS)";
+			packageProductDependencies = (
+				9A2D4824280362FE0052EFA1 /* Alamofire */,
+				9AD97240280CAC3300A13B4E /* CodableCSV */,
+			);
 			productName = "OpenSeaScrapper (iOS)";
 			productReference = 9A2D47DF28034A390052EFA1 /* OpenSeaScrapper.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +382,10 @@
 			dependencies = (
 			);
 			name = "OpenSeaScrapper (macOS)";
+			packageProductDependencies = (
+				9A2EF0252803671000E7B076 /* Alamofire */,
+				9AD97249280D613D00A13B4E /* CodableCSV */,
+			);
 			productName = "OpenSeaScrapper (macOS)";
 			productReference = 9A2D47E528034A390052EFA1 /* OpenSeaScrapper.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +461,10 @@
 				Base,
 			);
 			mainGroup = 9A2D47D228034A380052EFA1;
+			packageReferences = (
+				9A2D4823280362FE0052EFA1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9AD9723F280CAC3300A13B4E /* XCRemoteSwiftPackageReference "CodableCSV" */,
+			);
 			productRefGroup = 9A2D47E028034A390052EFA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +515,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A86EE8D2815A741009D4492 /* CollectionResponse.swift in Sources */,
+				9A2EF02F2803754C00E7B076 /* Collection.swift in Sources */,
+				9A86EDDF280FE511009D4492 /* Bundle.swift in Sources */,
+				9A2EF03328037C6100E7B076 /* Stats.swift in Sources */,
+				9AD97247280D40B300A13B4E /* DataRow.swift in Sources */,
+				9AD97237280AAD0300A13B4E /* Transaction.swift in Sources */,
+				9A86EE872815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */,
+				9A2EF0292803751000E7B076 /* Asset.swift in Sources */,
+				9A86EE722814B669009D4492 /* TwitterAccount.swift in Sources */,
+				9A2D481F280362170052EFA1 /* AlamofireHttpRequestManager.swift in Sources */,
+				9A86EE6C2814B347009D4492 /* DiscordRepository.swift in Sources */,
+				9A86EE7D281591E1009D4492 /* TwitterLocalRepository.swift in Sources */,
+				9A2EF0312803760800E7B076 /* Contract.swift in Sources */,
+				9AD9723A280B5A9500A13B4E /* Date.swift in Sources */,
 				9A2D480228034A390052EFA1 /* ContentView.swift in Sources */,
-				9A2D480028034A390052EFA1 /* OpenSeaScrapperApp.swift in Sources */,
+				9A86EE8428159339009D4492 /* OpenSeaLocalRepository.swift in Sources */,
+				9AD97234280AAB3500A13B4E /* Token.swift in Sources */,
+				9A86EE80281591ED009D4492 /* TwitterRemoteRepository.swift in Sources */,
+				9A86EE692814B33B009D4492 /* TwitterRepository.swift in Sources */,
+				9A86EE7628158E69009D4492 /* DiscordRemoteRepository.swift in Sources */,
+				9A86EE8A2815A72D009D4492 /* EventsResponse.swift in Sources */,
+				9AD97244280CBD7A00A13B4E /* CsvManager.swift in Sources */,
+				9A2D4821280362170052EFA1 /* HttpRequestManager.swift in Sources */,
+				9A2D480028034A390052EFA1 /* OpenSeaScraperApp.swift in Sources */,
+				9A2EF0572805EE4000E7B076 /* User.swift in Sources */,
+				9AD9722F280A1AE000A13B4E /* Codable.swift in Sources */,
+				9AD97231280A1BA900A13B4E /* DateFormatter.swift in Sources */,
+				9AD9723D280B6B6300A13B4E /* ContentViewModel.swift in Sources */,
+				9A86EE7928158E77009D4492 /* DiscordLocalRepository.swift in Sources */,
+				9A2EF02D2803754200E7B076 /* Account.swift in Sources */,
+				9A86EE6F2814B4F5009D4492 /* DiscordServer.swift in Sources */,
+				9A2EF02B2803753800E7B076 /* Event.swift in Sources */,
+				9A2D481628034A720052EFA1 /* OpenSeaRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +555,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A86EE8E2815A741009D4492 /* CollectionResponse.swift in Sources */,
+				9A2D4820280362170052EFA1 /* AlamofireHttpRequestManager.swift in Sources */,
+				9A86EDE0280FE511009D4492 /* Bundle.swift in Sources */,
+				9A2EF03428037C6100E7B076 /* Stats.swift in Sources */,
+				9AD97248280D40B300A13B4E /* DataRow.swift in Sources */,
+				9AD97238280AAD0300A13B4E /* Transaction.swift in Sources */,
+				9A86EE882815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */,
 				9A2D480328034A390052EFA1 /* ContentView.swift in Sources */,
-				9A2D480128034A390052EFA1 /* OpenSeaScrapperApp.swift in Sources */,
+				9A86EE732814B669009D4492 /* TwitterAccount.swift in Sources */,
+				9A2EF03928037C7100E7B076 /* Asset.swift in Sources */,
+				9A86EE6D2814B347009D4492 /* DiscordRepository.swift in Sources */,
+				9A86EE7E281591E1009D4492 /* TwitterLocalRepository.swift in Sources */,
+				9A2D4822280362170052EFA1 /* HttpRequestManager.swift in Sources */,
+				9AD9723B280B5A9500A13B4E /* Date.swift in Sources */,
+				9A2EF03828037C6E00E7B076 /* Event.swift in Sources */,
+				9A86EE8528159339009D4492 /* OpenSeaLocalRepository.swift in Sources */,
+				9AD97235280AAB3500A13B4E /* Token.swift in Sources */,
+				9A86EE81281591ED009D4492 /* TwitterRemoteRepository.swift in Sources */,
+				9A86EE6A2814B33B009D4492 /* TwitterRepository.swift in Sources */,
+				9A86EE7728158E69009D4492 /* DiscordRemoteRepository.swift in Sources */,
+				9A86EE8B2815A72D009D4492 /* EventsResponse.swift in Sources */,
+				9AD97245280CBD7A00A13B4E /* CsvManager.swift in Sources */,
+				9A2D480128034A390052EFA1 /* OpenSeaScraperApp.swift in Sources */,
+				9A2EF03728037C6B00E7B076 /* Account.swift in Sources */,
+				9A2EF0582805EE4000E7B076 /* User.swift in Sources */,
+				9AD9722E280A173300A13B4E /* Codable.swift in Sources */,
+				9AD97232280A1BA900A13B4E /* DateFormatter.swift in Sources */,
+				9AD9723E280B6B6300A13B4E /* ContentViewModel.swift in Sources */,
+				9A86EE7A28158E77009D4492 /* DiscordLocalRepository.swift in Sources */,
+				9A2EF03528037C6600E7B076 /* Contract.swift in Sources */,
+				9A86EE702814B4F5009D4492 /* DiscordServer.swift in Sources */,
+				9A2D481B280351210052EFA1 /* OpenSeaRepository.swift in Sources */,
+				9A2EF03628037C6800E7B076 /* Collection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +675,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -449,6 +728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -535,7 +815,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.OpenSeaScrapper;
 				PRODUCT_NAME = OpenSeaScrapper;
@@ -563,7 +843,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.OpenSeaScrapper;
 				PRODUCT_NAME = OpenSeaScrapper;
@@ -701,6 +981,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A2D4823280362FE0052EFA1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.0;
+			};
+		};
+		9AD9723F280CAC3300A13B4E /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A2D4824280362FE0052EFA1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A2D4823280362FE0052EFA1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9A2EF0252803671000E7B076 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A2D4823280362FE0052EFA1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9AD97240280CAC3300A13B4E /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AD9723F280CAC3300A13B4E /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+		9AD97249280D613D00A13B4E /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AD9723F280CAC3300A13B4E /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A2D47D328034A380052EFA1 /* Project object */;
 }
