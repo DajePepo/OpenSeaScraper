@@ -36,6 +36,7 @@
 		9A86EE882815934C009D4492 /* OpenSeaRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */; };
 		9A86EE8B2815A72D009D4492 /* EventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE892815A72D009D4492 /* EventsResponse.swift */; };
 		9A86EE8E2815A741009D4492 /* CollectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A86EE8C2815A741009D4492 /* CollectionResponse.swift */; };
+		9A86EE9128171C96009D4492 /* NftData_5000.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9A86EE9028171C96009D4492 /* NftData_5000.csv */; };
 		9AD9722E280A173300A13B4E /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9722D280A173300A13B4E /* Codable.swift */; };
 		9AD97232280A1BA900A13B4E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97230280A1BA900A13B4E /* DateFormatter.swift */; };
 		9AD97235280AAB3500A13B4E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD97233280AAB3500A13B4E /* Token.swift */; };
@@ -89,6 +90,7 @@
 		9A86EE862815934C009D4492 /* OpenSeaRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaRemoteRepository.swift; sourceTree = "<group>"; };
 		9A86EE892815A72D009D4492 /* EventsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsResponse.swift; sourceTree = "<group>"; };
 		9A86EE8C2815A741009D4492 /* CollectionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionResponse.swift; sourceTree = "<group>"; };
+		9A86EE9028171C96009D4492 /* NftData_5000.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NftData_5000.csv; sourceTree = "<group>"; };
 		9AD9722D280A173300A13B4E /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		9AD97230280A1BA900A13B4E /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		9AD97233280AAB3500A13B4E /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
@@ -133,10 +135,10 @@
 		9A2D47D728034A380052EFA1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9A2D47DA28034A390052EFA1 /* Assets.xcassets */,
 				9A2D47D828034A380052EFA1 /* OpenSeaScraperApp.swift */,
 				9A2D47D928034A380052EFA1 /* ContentView.swift */,
 				9AD9723C280B6B6300A13B4E /* ContentViewModel.swift */,
+				9A86EE8F28171C7D009D4492 /* Resources */,
 				9A2D481428034A520052EFA1 /* Repositories */,
 				9AD97242280CBD6500A13B4E /* Managers */,
 				9A2D481C280362170052EFA1 /* HttpRequestManager */,
@@ -250,6 +252,15 @@
 			path = OpenSeaRepository;
 			sourceTree = "<group>";
 		};
+		9A86EE8F28171C7D009D4492 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D47DA28034A390052EFA1 /* Assets.xcassets */,
+				9A86EE9028171C96009D4492 /* NftData_5000.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9AD9722C280A171500A13B4E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A86EE9128171C96009D4492 /* NftData_5000.csv in Resources */,
 				9A2D480528034A390052EFA1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
